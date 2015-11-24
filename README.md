@@ -1,17 +1,16 @@
-# Python syllabus
+# Programming with Python 
 
-***If you are a teacher or interested in the design of the course, see the [meta](https://github.com/advanced-js/syllabus/blob/master/meta.md) document.***
-
-* **Course:** [GPS-Python programming]()
+* **Course:** [GPS PEDL - Python programming]()
 * **Instructor:** Tim Dennis, [timdennis@ucsd.edu](mailto:timdennis@ucsd.edu)
 * **TA**:  
 * **Need help:**
     * Office Hours 
    * [Email](mailto:timdennis@ucsd.edu) for 1-on-1 help, or to set up a time to meet (poss. meetup)
+* **Time/Data**:  M/W - noon-1:30
 
 ## Course Description
 
-Learn best practices in Python in six-session course. Topics include data analysis, looping, data types, flow control, and creating functions. The object of the course is not to a proficient python prgrammer but to introduce you to programming constructs that can be reapplied in other languages. 
+Learn best practices in Python in six-session course. Topics include data analysis, looping, data types, flow control, creating functions and plotting. The object of the course is not to make you a proficient python prgrammer, but to introduce you to programming constructs that can be reapplied in other languages. 
 
 It is best to use  your own laptop for this course, but if you don't have one please see your instructor.  
 
@@ -19,7 +18,6 @@ It is best to use  your own laptop for this course, but if you don't have one pl
 
 * No coding background is necessary.
 * It would be helpful to have some familiarity with data analysis and working with data, but not necessary.
-
 
 ## Course Overview
 
@@ -36,12 +34,13 @@ Topics will include:
 * Debugging your script
 * Subset and perform analysis on data
 * Parallel computing
+* Working with Data on the Web
 
 Topics will be demonstrated through live-code examples/slides. Students are expected to follow allong. These materials are primarily adapted from the Sofware Carpentry lessons. If unchanged, I'll just link to their lessons below. 
 
-## Quizzes and Tests
+## Quizzes and Challenges
 
-There will be in-class quizzes to reinforce the lessons.  We will also come up with a course assessment test. 
+There will be in-class quizzes to reinforce the lessons. There will also be in-class coding challenges. 
 
 
 ## Course Outline
@@ -65,8 +64,6 @@ There will be in-class quizzes to reinforce the lessons.  We will also come up w
     * Simple graphing
 4. [Repeating actions with loops](http://swcarpentry.github.io/python-novice-inflammation/02-loop.html)
 
-#### Homework
-
 
 ### Class 2
 
@@ -79,9 +76,6 @@ There will be in-class quizzes to reinforce the lessons.  We will also come up w
     * Explain the similarities and differences between tuples and lists.
     * Write conditional statements including if, elif, and else branches.
     * Correctly evaluate expressions containing and and or.
-
-#### Homework
-
 
 ### Class 3
 
@@ -102,8 +96,6 @@ There will be in-class quizzes to reinforce the lessons.  We will also come up w
     * Explain why variables should be initialized using actual data values rather than arbitrary constants.
 4. [Debugging](http://swcarpentry.github.io/python-novice-inflammation/09-debugging.html)
     * Debug code containing an error systematically.
-    
-#### Homework
 
 
 ### Class 4
@@ -123,34 +115,39 @@ There will be in-class quizzes to reinforce the lessons.  We will also come up w
     * Write and use functions in Python
     * Write useful documentation
 
-#### Homework
 
 ### Class 5
-1. Quality Assurance
-
-2. Parallel Programming
+2. [Parallel Programming]
     * Understand the major parallel programming models
     * Learn how to implement simple multiprocessor parallelization
     * Evaluate the performance speedup gained from parallelization
-
-## Supplemental 
-#### Homework
+3. [Working with Data on the Web](http://swcarpentry.github.io/web-data-python/01-getdata.html)
+    * Write Python programs to download data sets using simple REST APIs.
+    * Use climatedataapi.worldbank.org
+4. [Handling CSV Data](http://swcarpentry.github.io/web-data-python/02-csv.html)
+    * Parse CSV data using the csv library.
+    * Test a program that parses CSV using multiline strings.
+5. [Generalizing and Handling Errors](http://swcarpentry.github.io/web-data-python/03-generalize.html)
+    * Turn a script into a function.
+    * Make a function more robust by explicitly handling errors. 
 
 ### Class 6
-1. Working With Data on the Web
-
-#### Homework
+1. [Visualization](http://swcarpentry.github.io/web-data-python/04-visualize.html)
+    * Construct a simple visualization using pyplot.
+2. [Publishing Data](http://swcarpentry.github.io/web-data-python/05-makedata.html)
+    * Write Python programs that share static data sets.
+3. [Making Data Findable](http://swcarpentry.github.io/web-data-python/05-makedata.html)
+    * Make data sets more useful by providing metadata.
 
 ## Resources
 
-
+* [Programming wiht Python](http://swcarpentry.github.io/python-novice-inflammation/reference.html)
+* [Working with Data on the Web](http://swcarpentry.github.io/web-data-python/reference.html)
 
 
 
 ## Grading
 
-* Class Participation – 30%
-* Homework – 70%
 
 
 
