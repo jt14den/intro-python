@@ -1,0 +1,14 @@
+
+## Introduction to Using Python for Data Analysis
+ 
+
+ Learn the basics of coding in Python in this 6 session course.  The object of the course is to introduce you to programming constructs that can be reapplied in other languages.  Topics include data analysis, looping, data types, flow control, and creating functions. 
+
+
+
+## Introduction to Scientific Computing with R
+
+
+
+## Introduction to Bash, SQL and Git
+
